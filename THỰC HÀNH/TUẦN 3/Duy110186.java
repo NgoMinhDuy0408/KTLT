@@ -1,18 +1,21 @@
 package buoi3;
+
 public class Duy110186 {
-    public static void main(String[] args) {
-        String maSinhVien = "110186" , hoVaTen = "Ngô Minh Duy" , ngaySinh = "04/08/2006" , lop = "GD24A" , khoa = "Mỹ thuật ứng dụng" , diaChi = "Đà Nẵng" ;
+public static void main(String[] args) {
+        String maSinhVien = "110186" , hoVaTen = "Ngô Minh Duy" , ngaySinh = "04/08/2006" , lop = "GD24A" , khoa = "My thuat ung dung" , diaChi = "Da Nang" ;
        int tuoi = 18;
         boolean gioiTinh = true;
-        System.out.println("-----THÔNG TIN SINH VIÊN-----"); 
-        System.out.println("Mã sinh viên: " + maSinhVien);
-        System.out.println("Họ và tên: " + hoVaTen);
-        System.out.println("Ngày sinh: " + ngaySinh);
-        System.out.println("Lớp: " + lop);
+        System.out.println("-----THONG TIN SINH VIEN-----"); 
+        System.out.println("Ma sinh vien: " + maSinhVien);
+        System.out.println("Ho va ten: " + hoVaTen);
+        System.out.println("Ngay sinh: " + ngaySinh);
+        System.out.println("Lop: " + lop);
         System.out.println("Khoa: " + khoa);
-        System.out.println("Địa chỉ: " + diaChi);
-        System.out.println("Tuổi: " + tuoi);
-        System.out.println("-----HẾT-----");
+        System.out.println("Dia chi: " + diaChi);
+        System.out.println("Tuoi: " + tuoi);
+        System.out.println("-----HET-----");
     }
     
 }
+    
+
